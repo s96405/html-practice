@@ -1,0 +1,33 @@
+.wrap{
+    margin: 0 auto;
+     width: 857px;
+     border: 1px solid #000;
+     border-radius: 20px;
+     text-align: center;
+     background-color: blanchedalmond;
+     margin-top: 50px;
+}
+.wrap h2{
+    color: #000;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.wrap ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.wrap ul li{
+  border-radius: 30px;
+  border: 1px solid#000;
+  padding: 20px 10px;
+  background-color: bisque;
+}
+.wrap ul li a{
+   text-decoration: none;
+   color: #000;
+}
+.wrap ul li a:hover{
+    color: blue
+}
