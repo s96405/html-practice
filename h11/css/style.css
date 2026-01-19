@@ -1,5 +1,5 @@
 .wrap{
-   
+   width: 1030px;
     margin: 0 auto;
 }
 
@@ -7,7 +7,7 @@
     display: flex;
     justify-content:right;
     background-color: #f6f6f8;
-    padding-right: 20%;
+    padding-right: 40px;
     position: relative;
     padding-top: 10px;
 }
@@ -36,7 +36,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-right: 20%;
+    padding-right: 40px;
 }
 .header img{
     margin-left: 20px;
@@ -61,38 +61,104 @@
 }
 .main-h2{
     position: absolute;
-    top: 40%;
+    top: 30%;
     color: aliceblue;
     font-size: 40px;
     padding-left: 10%;
     line-height: 1.6;
-    width:100%;
+    width: 1030px;
     background: rgba(0,0,0,0.2);
 }
-.menu h2{
+.menu ul li h2{
     text-align: center;
     margin-bottom: 10px;
     font-weight: 500;
 }
 .menu ul{  
-    display: flex;
-    margin-right: 40px;
-    margin-left: 40px;
+    display: flex;    
     margin-top: 20px;
-    width: 100%;
+    width: 1030px;
 }
 .menu  ul li{
-    width: 430px;
     box-shadow: 3px 3px 10px gray  ;
-    margin-right: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 305px;
+    margin-right: 20px;
+    padding: 20px;
+    margin:  0 auto;
 }
-.menu  ul li p{
-   padding-left: 10px;
-   padding-right: 10px;
-}
+
 
 .menu p{
     line-height: 1.6;
+}
+.table h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.table{
+    width: 1030px;
+}
+.table th{
+    width: 850px;
+    text-align: left;
+    padding-left: 50px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table td{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+}
+.content{
+    display: flex;
+   
+   
+}
+.item{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.material{
+    background:linear-gradient(#00644b,#009771);
+}
+.material h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.material p{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.message{
+    width: 460px;
+    height: 240px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.name,
+.phone,
+.email{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sub{
+    width: 75px;
+    height: 30px;
+    margin-left:83%;
+    margin-top: 20px;
+    cursor: pointer;
 }
