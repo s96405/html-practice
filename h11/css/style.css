@@ -1,5 +1,5 @@
 .wrap{
-   width: 1030px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -57,17 +57,21 @@
 }
 .main img{
     width: 100%;
+}
+.main{
     position: relative;
 }
 .main-h2{
     position: absolute;
-    top: 30%;
+    top: 20%;
     color: aliceblue;
     font-size: 40px;
     padding-left: 10%;
     line-height: 1.6;
-    width: 1030px;
+    width: 100%;
     background: rgba(0,0,0,0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .menu ul li h2{
     text-align: center;
@@ -75,16 +79,19 @@
     font-weight: 500;
 }
 .menu ul{  
-    display: flex;    
-    margin-top: 20px;
-    width: 1030px;
+    display: flex; 
+    width: 1200px;
+    margin: 0 auto;;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .menu  ul li{
     box-shadow: 3px 3px 10px gray  ;
-    width: 305px;
-    margin-right: 20px;
+    width: 380px;
     padding: 20px;
     margin:  0 auto;
+    margin-top: 20px;
+    margin-right: 20px
 }
 
 
@@ -98,10 +105,12 @@
     font-size: 26px;
 }
 .table{
-    width: 1030px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .table th{
-    width: 850px;
     text-align: left;
     padding-left: 50px;
     border-top: 1px solid #ededed;
@@ -116,49 +125,71 @@
     padding-bottom: 10px;
     border-bottom: 1px solid #ededed;
 }
-.content{
-    display: flex;
-   
-   
-}
-.item{
-    width: 430px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    margin-top: 20px;
-    color: #ffffff;
-}
+
 .material{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
     background:linear-gradient(#00644b,#009771);
+    position: relative;
 }
 .material h2{
     color: #fff;
     text-align: center;
     padding-top: 20px;
-}
-.material p{
-    color: #fff;
-    text-align: center;
     font-size: 26px;
-    margin-bottom: 20px;
 }
-.message{
-    width: 460px;
-    height: 240px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+.content-item{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    color: #fff;
+}
+.item{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.item p{
+    margin-bottom: 5px;
 }
 .name,
-.phone,
-.email{
-    font-size: 18px;
-    margin-bottom: 10px;
+.email,
+.phone{
+    margin-bottom: 45px;
+    padding: 5px;
+}
+.message{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 40px
 }
 .sub{
+    position: absolute;
+    right: 4%;
+    bottom: 12%;
     width: 75px;
     height: 30px;
-    margin-left:83%;
     margin-top: 20px;
     cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;;
+    margin-bottom: 40px;
+}
+.footer-text{
+    margin-top: 20px;
+    color: #ef90bc;
+    padding-right: 80px;
+    line-height: 1.6;
+}
+.footer img{
+    color: #949494;
+    padding-left:60px;
+    height: 50px;
+    margin-top: 10px;
+    
 }
